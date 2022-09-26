@@ -32,8 +32,6 @@
                     <input class="btn btn-lg btn-dark w-100" type="submit" value="Sign in">
                     {{--                <button type="button">Sing in</button>--}}
                 </div>
-                <hr>
-                <p> Not registered?</p><a href="/registerForm"><p>Register here</p></a>
             </form>
         </div>
     </div>

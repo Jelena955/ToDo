@@ -11,8 +11,7 @@ class Home extends Controller
     public function index ()
     {
         //todo make factories
-        $lists= new DailyList();
-        $this->data['lists']=DailyList::all()->where('user_id', '=', auth()->user()->id);
+       $this->data['lists']=DailyList::where('user_id', '=', auth()->user()->id)->paginate(10);
 
         return view ("pages.home", $this->data);
     }

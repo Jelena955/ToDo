@@ -7,6 +7,7 @@
 
 <!-- Navigation -->
 @include('fixed.navigation')
+@include('fixed.notification')
 
 <!-- Page Content -->
 @yield('content')
